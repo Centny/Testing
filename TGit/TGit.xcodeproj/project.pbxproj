@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94783EF17124B4100B8BAD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94783EE17124B4100B8BAD8 /* UIKit.framework */; };
+		E94783F117124B4100B8BAD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94783F017124B4100B8BAD8 /* Foundation.framework */; };
+		E94783F317124B4100B8BAD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94783F217124B4100B8BAD8 /* CoreGraphics.framework */; };
+		E94783F917124B4100B8BAD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94783F717124B4100B8BAD8 /* InfoPlist.strings */; };
+		E94783FB17124B4100B8BAD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94783FA17124B4100B8BAD8 /* main.m */; };
+		E94783FF17124B4100B8BAD8 /* TGitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94783FE17124B4100B8BAD8 /* TGitAppDelegate.m */; };
+		E947840117124B4100B8BAD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E947840017124B4100B8BAD8 /* Default.png */; };
+		E947840317124B4100B8BAD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E947840217124B4100B8BAD8 /* Default@2x.png */; };
+		E947840517124B4100B8BAD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E947840417124B4100B8BAD8 /* Default-568h@2x.png */; };
+		E947840817124B4100B8BAD8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E947840617124B4100B8BAD8 /* MainStoryboard_iPhone.storyboard */; };
+		E947840B17124B4100B8BAD8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E947840917124B4100B8BAD8 /* MainStoryboard_iPad.storyboard */; };
+		E947840E17124B4100B8BAD8 /* TGitFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E947840D17124B4100B8BAD8 /* TGitFirstViewController.m */; };
+		E947841017124B4100B8BAD8 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E947840F17124B4100B8BAD8 /* first.png */; };
+		E947841217124B4100B8BAD8 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E947841117124B4100B8BAD8 /* first@2x.png */; };
+		E947841517124B4100B8BAD8 /* TGitSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E947841417124B4100B8BAD8 /* TGitSecondViewController.m */; };
+		E947841717124B4100B8BAD8 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E947841617124B4100B8BAD8 /* second.png */; };
+		E947841917124B4100B8BAD8 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E947841817124B4100B8BAD8 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E94783EA17124B4100B8BAD8 /* TGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94783EE17124B4100B8BAD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E94783F017124B4100B8BAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E94783F217124B4100B8BAD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E94783F617124B4100B8BAD8 /* TGit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TGit-Info.plist"; sourceTree = "<group>"; };
+		E94783F817124B4100B8BAD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E94783FA17124B4100B8BAD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94783FC17124B4100B8BAD8 /* TGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGit-Prefix.pch"; sourceTree = "<group>"; };
+		E94783FD17124B4100B8BAD8 /* TGitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGitAppDelegate.h; sourceTree = "<group>"; };
+		E94783FE17124B4100B8BAD8 /* TGitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGitAppDelegate.m; sourceTree = "<group>"; };
+		E947840017124B4100B8BAD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E947840217124B4100B8BAD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E947840417124B4100B8BAD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E947840717124B4100B8BAD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E947840A17124B4100B8BAD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E947840C17124B4100B8BAD8 /* TGitFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGitFirstViewController.h; sourceTree = "<group>"; };
+		E947840D17124B4100B8BAD8 /* TGitFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGitFirstViewController.m; sourceTree = "<group>"; };
+		E947840F17124B4100B8BAD8 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		E947841117124B4100B8BAD8 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		E947841317124B4100B8BAD8 /* TGitSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGitSecondViewController.h; sourceTree = "<group>"; };
+		E947841417124B4100B8BAD8 /* TGitSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGitSecondViewController.m; sourceTree = "<group>"; };
+		E947841617124B4100B8BAD8 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		E947841817124B4100B8BAD8 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94783E717124B4100B8BAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94783EF17124B4100B8BAD8 /* UIKit.framework in Frameworks */,
+				E94783F117124B4100B8BAD8 /* Foundation.framework in Frameworks */,
+				E94783F317124B4100B8BAD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94783DF17124B4100B8BAD8 = {
+			isa = PBXGroup;
+			children = (
+				E94783F417124B4100B8BAD8 /* TGit */,
+				E94783ED17124B4100B8BAD8 /* Frameworks */,
+				E94783EB17124B4100B8BAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94783EB17124B4100B8BAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94783EA17124B4100B8BAD8 /* TGit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94783ED17124B4100B8BAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94783EE17124B4100B8BAD8 /* UIKit.framework */,
+				E94783F017124B4100B8BAD8 /* Foundation.framework */,
+				E94783F217124B4100B8BAD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94783F417124B4100B8BAD8 /* TGit */ = {
+			isa = PBXGroup;
+			children = (
+				E94783FD17124B4100B8BAD8 /* TGitAppDelegate.h */,
+				E94783FE17124B4100B8BAD8 /* TGitAppDelegate.m */,
+				E947840617124B4100B8BAD8 /* MainStoryboard_iPhone.storyboard */,
+				E947840917124B4100B8BAD8 /* MainStoryboard_iPad.storyboard */,
+				E947840C17124B4100B8BAD8 /* TGitFirstViewController.h */,
+				E947840D17124B4100B8BAD8 /* TGitFirstViewController.m */,
+				E947840F17124B4100B8BAD8 /* first.png */,
+				E947841117124B4100B8BAD8 /* first@2x.png */,
+				E947841317124B4100B8BAD8 /* TGitSecondViewController.h */,
+				E947841417124B4100B8BAD8 /* TGitSecondViewController.m */,
+				E947841617124B4100B8BAD8 /* second.png */,
+				E947841817124B4100B8BAD8 /* second@2x.png */,
+				E94783F517124B4100B8BAD8 /* Supporting Files */,
+			);
+			path = TGit;
+			sourceTree = "<group>";
+		};
+		E94783F517124B4100B8BAD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94783F617124B4100B8BAD8 /* TGit-Info.plist */,
+				E94783F717124B4100B8BAD8 /* InfoPlist.strings */,
+				E94783FA17124B4100B8BAD8 /* main.m */,
+				E94783FC17124B4100B8BAD8 /* TGit-Prefix.pch */,
+				E947840017124B4100B8BAD8 /* Default.png */,
+				E947840217124B4100B8BAD8 /* Default@2x.png */,
+				E947840417124B4100B8BAD8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94783E917124B4100B8BAD8 /* TGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E947841C17124B4100B8BAD8 /* Build configuration list for PBXNativeTarget "TGit" */;
+			buildPhases = (
+				E94783E617124B4100B8BAD8 /* Sources */,
+				E94783E717124B4100B8BAD8 /* Frameworks */,
+				E94783E817124B4100B8BAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGit;
+			productName = TGit;
+			productReference = E94783EA17124B4100B8BAD8 /* TGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94783E117124B4100B8BAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TGit;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Centny;
+			};
+			buildConfigurationList = E94783E417124B4100B8BAD8 /* Build configuration list for PBXProject "TGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E94783DF17124B4100B8BAD8;
+			productRefGroup = E94783EB17124B4100B8BAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94783E917124B4100B8BAD8 /* TGit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94783E817124B4100B8BAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94783F917124B4100B8BAD8 /* InfoPlist.strings in Resources */,
+				E947840117124B4100B8BAD8 /* Default.png in Resources */,
+				E947840317124B4100B8BAD8 /* Default@2x.png in Resources */,
+				E947840517124B4100B8BAD8 /* Default-568h@2x.png in Resources */,
+				E947840817124B4100B8BAD8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E947840B17124B4100B8BAD8 /* MainStoryboard_iPad.storyboard in Resources */,
+				E947841017124B4100B8BAD8 /* first.png in Resources */,
+				E947841217124B4100B8BAD8 /* first@2x.png in Resources */,
+				E947841717124B4100B8BAD8 /* second.png in Resources */,
+				E947841917124B4100B8BAD8 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94783E617124B4100B8BAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94783FB17124B4100B8BAD8 /* main.m in Sources */,
+				E94783FF17124B4100B8BAD8 /* TGitAppDelegate.m in Sources */,
+				E947840E17124B4100B8BAD8 /* TGitFirstViewController.m in Sources */,
+				E947841517124B4100B8BAD8 /* TGitSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E94783F717124B4100B8BAD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94783F817124B4100B8BAD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E947840617124B4100B8BAD8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E947840717124B4100B8BAD8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E947840917124B4100B8BAD8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E947840A17124B4100B8BAD8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E947841A17124B4100B8BAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E947841B17124B4100B8BAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E947841D17124B4100B8BAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGit/TGit-Prefix.pch";
+				INFOPLIST_FILE = "TGit/TGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E947841E17124B4100B8BAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGit/TGit-Prefix.pch";
+				INFOPLIST_FILE = "TGit/TGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94783E417124B4100B8BAD8 /* Build configuration list for PBXProject "TGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947841A17124B4100B8BAD8 /* Debug */,
+				E947841B17124B4100B8BAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E947841C17124B4100B8BAD8 /* Build configuration list for PBXNativeTarget "TGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E947841D17124B4100B8BAD8 /* Debug */,
+				E947841E17124B4100B8BAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94783E117124B4100B8BAD8 /* Project object */;
+}
